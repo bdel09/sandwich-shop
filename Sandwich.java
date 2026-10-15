@@ -16,6 +16,20 @@ public class Sandwich{
         else {
             System.out.println("Invalid choices. Choose 1 or 2. ")
         }
+
+        //Let user decide if sand is loaded
+        boolean is_loaded;
+        Scanner Status = new Scanner(System.in);
+        System.out.println("Is your sandwich loaded? (Yes: True, No; False) ");
+        Status.next();
+        if (Status.next() == True) {
+            float price += 1.00;
+        }
+        else if (Status.next() = False) {
+            float price += 2.00;
+        }
+
+
         //Read in age
         Scanner age = new Scanner(System.in);
         System.out.println("Enter age: ");
