@@ -1,4 +1,4 @@
-import java.util.scanner;
+import java.util.Scanner;
 public class Sandwich{
     public static void main(String[] args) {
         //Prompt user for Sandwich size: Regular (encode as (1)), (Large, as (2))
